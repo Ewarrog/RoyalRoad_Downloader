@@ -1,15 +1,12 @@
 # RoyalRoad_Downloader
-Downloads a book on RoyalRoad as html and then converts it to epub (needs Calibre)
+Downloads a book on RoyalRoad and converts it to epub
 By default the files will be created in D:/Books/RoyalRoad.
-A folder will be created for the book and the html files will be in a "raw_html" folder and the epub files will be in an "epub" folder.
 
 # How to use
 python rr_downloader.py [OPTIONS] URL
 
   Parses the index at URL to fetch all the chapters of a book on RoyalRoad
-  and store the content as html. The html file is then converted to epub
-  format using Calibre's "ebook-convert" command. (Calibre must have been
-  previously installed https://calibre-ebook.com/fr/download)
+  and store the content as epub.
 
 Options:
   --out TEXT   Base output directory. A folder will be created for the book. Default: D:/Books/RoyalRoad

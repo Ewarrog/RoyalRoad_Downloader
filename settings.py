@@ -1,0 +1,1 @@
+DEFAULT_OUT_DIR = 'D:/Books/RoyalRoad'
